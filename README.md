@@ -47,7 +47,7 @@ Before you start, ensure you have the following installed:
      ```
 
 2. **Start Celery Workers**:
-   - next run this to create your workers (if needed you can run the same command on multiple terminals ,aslo the compan should be done in the file directory so celey can fint the module task).:
+   - next run this to create your workers (if needed you can run the same command on multiple terminals ,aslo the comand should be done in the file directory so celey can find the module task).:
    - In each terminal, navigate to the project directory and start a Celery worker by running:
      ```bash
      python -m celery -A tasks worker --loglevel=info --concurrency=4
